@@ -1,8 +1,8 @@
-#initially-hidden {
+.initially-hidden {
   display: none;
 }
 
-img {
+.green {
   display: none;
 }
 
@@ -12,5 +12,14 @@ img {
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable2:hover {
   text-decoration: underline;
 }

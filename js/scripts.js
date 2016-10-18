@@ -1,7 +1,13 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#initially-hidden").toggle();
+    $(".initially-hidden").toggle();
     $("#initially-showing").toggle();
-    $("img").fadeToggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable2").click(function() {
+    $("#secondlink").toggle();
+    $(".green").toggle();
   });
 });
